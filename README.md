@@ -1,6 +1,8 @@
 # Crowdsource server
 
-This subdirectory contains a simple server for the radarhub plugin written in python. To run it:
+This subdirectory contains a simple server for the radarhub plugin written in python. This server implements the full protocol, but just dumps all received tracks to disk in geojson format. It can be used as a simple shore based VDR, but mostly serves as an example base for anyone wanting to build a more elaborate server side setup.
+
+To run it:
 
 ```
 virtualenv myenv

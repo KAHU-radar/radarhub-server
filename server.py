@@ -11,7 +11,7 @@ import datetime
 import traceback
 import uuid as uuidmod
 
-with open("../data/proto_avro.json") as f:
+with open("protocol/proto_avro.json") as f:
     schema = avro.schema.parse(f.read())
     
 class MyTCPHandler(socketserver.BaseRequestHandler):
